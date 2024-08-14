@@ -78,7 +78,9 @@
 /* Navbar style */
 .navbar{
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
+    padding-top: 60px;
+    
     
 }
 .logo{
@@ -465,6 +467,9 @@
 }
 
 /* Navbar */
+..navbar{
+    padding-top: 30px;
+}
 .nav-links{
     display: none;
 }
