@@ -56,6 +56,14 @@
     margin-bottom: 0px;
 }
 
+.gray-bg{
+    background-color: #222222;
+}
+
+.h3{
+    font-size: 28px;
+    font-weight: 900;
+}
 /* Navbar style */
 .navbar{
     display: flex;
@@ -237,4 +245,100 @@
     margin-top: 30px;
     margin-bottom: 0px;
     color: white;
+}
+
+/* Extra Mile */
+
+.extra-mile-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 54px;
+    padding-right: 32px;
+    border-radius: 18px;
+    align-items: center;
+    width: 100%;
+}
+
+.mile-content{
+    max-width: 440px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 14px;
+}
+
+.btn-wrap{
+    width: 224px;
+}
+
+.mile-image{
+    width: 366px;
+    background-image: url('../images/run.jpg');
+    background-size: cover;
+    border-radius: 18px;
+    height: 312px;
+    background-repeat: no-repeat;
+}
+
+/* Bmi */
+
+.bmi-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin: 0px 190px;
+    padding-bottom: 88px;
+    color: rgba(255, 255, 255, 0.5);;
+}
+.bmi-tbl {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: white;
+}
+
+.bmi-tbl th, .bmi-tbl td {
+    padding: 10px 20px;
+    border: 1px solid #3a3a3a;
+}
+
+.bmi-tbl th {
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+.BMI-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-data{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.form-data input {
+    flex: 1;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+}
+
+.form-data select{
+    flex: 1;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
 }
